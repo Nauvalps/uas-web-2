@@ -25,4 +25,11 @@ class Mutasi_masuk extends CI_Controller {
 		$this->load->view('admin/mutasi_masuk');
 		$this->load->view('admin/templates/footer');
 	}
+	public function add()
+	{
+		$this->load->view('admin/templates/header');
+		$this->load->view('admin/templates/sidebar');
+		$this->load->view('admin/add_masuk');
+		$this->load->view('admin/templates/footer');
+	}
 }

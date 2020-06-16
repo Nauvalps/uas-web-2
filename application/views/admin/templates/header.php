@@ -4,9 +4,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>SIMUSIS || HOME</title>
-	<link rel="stylesheet" href="vendor/twbs/bootstrap/dist/css/test.css">
-	<link rel="stylesheet" href="vendor/twbs/bootstrap/dist/css/custom.css">
-	<link rel="stylesheet" href="vendor/twbs/bootstrap/dist/css/dataTables.bootstrap4.min.css"> 
+	<link rel="stylesheet" href="<?php echo base_url('vendor/twbs/bootstrap/dist/css/test.css')?> ">
+	<link rel="stylesheet" href="<?php echo base_url('vendor/twbs/bootstrap/dist/css/custom.css')?> ">
+	<link rel="stylesheet" href="<?php echo base_url('vendor/twbs/bootstrap/dist/css/dataTables.bootstrap4.min.css') ?>"> 
 </head>
 <body class="app">
 	<header class="app-header">

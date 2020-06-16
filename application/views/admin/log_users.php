@@ -20,13 +20,14 @@
 						</div>
 					</div>
 					<div class="col">
-						<button type="submit" class="btn btn-success btn-sm"><i class="fas fa-print"></i> Print Laporan</button>
+						<button type="submit" class="btn btn-success btn-sm"><i class="fas fa-print"></i> Print
+							Laporan</button>
 					</div>
 				</form>
 			</div>
 			<div class="col">
 				<a class="btn btn-primary float-right mt-auto btn-sm"
-					style="margin-right: 15px; margin-top: 30px !important;" id="btnTambah" href="<?php echo base_url('mutasi_masuk/add')?>"><i
+					style="margin-right: 15px; margin-top: 30px !important;" id="btnTambah" href="#"><i
 						class="fas fa-plus"></i> Tambah Data</a>
 			</div>
 		</div>
@@ -42,28 +43,19 @@
 								<thead class="thead-dark">
 									<tr>
 										<th scope="col">#</th>
-										<th scope="col">Nisn</th>
-										<th scope="col">Nama Siswa</th>
-										<th scope="col">Tanggal Masuk</th>
-										<th scope="col">Jenjang</th>
-										<th scope="col">Asal Sekolah</th>
-										<th scope="col">Sekolah Tujuan</th>
-										<th scope="col" style="width: 20%;">Aksi</th>
+										<th scope="col">Log Id</th>
+										<th scope="col">Username</th>
+										<th scope="col">Log Time</th>
+										<th scope="col">Log Description</th>
 									</tr>
 								</thead>
 								<tbody>
 									<tr>
 										<th scope="row">1</th>
-										<td>0123123123</td>
+										<td>012</td>
 										<td>Agung Gumelar</td>
-										<td>14 Juni 2020</td>
-										<td>SMK</td>
-										<td>SMKN 1 KOTA BANDUNG</td>
-										<td>SMKN 3 KOTA BEKASI</td>
-										<td>
-											<a href="" class="btn btn-info btn-sm"><i class="far fa-edit"> Edit</i></a>&nbsp;&nbsp;&nbsp;&nbsp;
-											<a href="" class="btn btn-danger btn-sm"><i class="fas fa-trash-alt"> Hapus</i></a>
-										</td>
+										<td>Rabu</td>
+										<td>Insert Data</td>
 									</tr>
 								</tbody>
 							</table>

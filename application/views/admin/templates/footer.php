@@ -1,8 +1,8 @@
-<script src="vendor/twbs/bootstrap/dist/js/jquery-3.5.1.slim.min.js"></script>
-	<script src="vendor/twbs/bootstrap/dist/js/popper.min.js"></script>
-	<script src="vendor/twbs/bootstrap/dist/js/bootstrap.min.js"></script>
-	<script src="vendor/twbs/bootstrap/dist/js/jquery.dataTables.min.js"></script>
-	<script src="vendor/twbs/bootstrap/dist/js/dataTables.bootstrap4.min.js"></script>
+<script src="<?php echo base_url('vendor/twbs/bootstrap/dist/js/jquery-3.5.1.slim.min.js')?>"></script>
+	<script src="<?php echo base_url('vendor/twbs/bootstrap/dist/js/popper.min.js')?>"></script>
+	<script src="<?php echo base_url('vendor/twbs/bootstrap/dist/js/bootstrap.min.js')?>"></script>
+	<script src="<?php echo base_url('vendor/twbs/bootstrap/dist/js/jquery.dataTables.min.js') ?>"></script>
+	<script src="<?php echo base_url('vendor/twbs/bootstrap/dist/js/dataTables.bootstrap4.min.js')?>"></script>
 	<script>
 		$('.dropdown-toggle').dropdown();
 		(function () {
