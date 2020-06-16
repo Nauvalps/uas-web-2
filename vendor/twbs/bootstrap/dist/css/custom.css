@@ -1,0 +1,157 @@
+.circleBase {
+  border-radius: 50%;
+}
+
+.type1 {
+  width: 50px;
+  height: 50px;
+  padding: 8px;
+  background: #F2EBFB;
+  text-align: center;
+  font: 32px Arial, sans-serif;
+}
+
+.type2 {
+  width: 50px;
+  height: 50px;
+  padding: 8px;
+  background: #EEF9FF;
+  text-align: center;
+  font: 32px Arial, sans-serif;
+}
+
+.card-title-1 {
+    position: absolute;
+    top: 20;
+    right: 110;
+    padding: 3px;
+}
+
+.card-title-2 {
+  position: absolute;
+  top: 20;
+  right: 110;
+  padding: 3px;
+}
+
+.card-title-3 {
+  position: absolute;
+  top: 20;
+  right: 110;
+  padding: 3px;
+}
+
+.card-title-4 {
+  position: absolute;
+  top: 20;
+  right: 110;
+  padding: 3px;
+}
+
+.card-text-1 {
+  position: absolute;
+  top: 50;
+  right: 37;
+  padding: 3px;
+  color: #71737D;
+  font-weight: 500;
+}
+
+.card-text-2 {
+  position: absolute;
+  top: 50;
+  right: 38;
+  padding: 3px;
+  color: #71737D;
+  font-weight: 500;
+}
+
+.card-text-3 {
+  position: absolute;
+  top: 50;
+  right: 58;
+  padding: 3px;
+  color: #71737D;
+  font-weight: 500;
+}
+
+.card-text-4 {
+  position: absolute;
+  top: 50;
+  right: 68;
+  padding: 3px;
+  color: #71737D;
+  font-weight: 500;
+}
+
+.type3 {
+  width: 50px;
+  height: 50px;
+  padding: 8px;
+  background: #FEF3EF;
+  text-align: center;
+
+  font: 32px Arial, sans-serif;
+
+}
+
+.type4 {
+  width: 50px;
+  height: 50px;
+  padding: 8px;
+
+  background: #FFEFF2;
+
+  text-align: center;
+  font: 32px Arial, sans-serif;
+}
+
+.fa-user-minus {
+  color: #49B8FF;
+  margin-top: 5px;
+}
+
+.fa-user-circle {
+  color: #FF8B56;
+  margin-top: 5px;
+}
+
+.fa-user-plus {
+  color: #713BDB;
+  margin-top: 5px;
+}
+
+.fa-database {
+  color: #FC5081;
+  margin-top: 5px;
+}
+
+.name {
+    text-align: center;
+    color: #435966;
+    margin-left: 50px;
+    position: absolute;
+    top: 70;
+    right: 10;
+    padding: 3px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.jabatan {
+    position: absolute;
+    top: 100;
+    right: 110;
+    padding: 3px;
+    color: #aab2bd;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    margin: 0;
+}
+
+@media only screen and (max-width: 423px) {
+  #btnTambah {
+    margin-bottom: 20px !important;
+  }
+}
